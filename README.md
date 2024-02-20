@@ -11,7 +11,7 @@ If the pet owner is not satisfied with the quick selection of pet sitters provid
 
 ![Filtrare](https://github.com/marauder36/PetSitter/assets/158584558/2666910d-2dbe-43b2-85c1-1e6d370f64b5)
 
-The pet owners have a dedicated section where they can save the details of all of their furry companions !
+Also, pet owners have a dedicated section where they can save the details of all of their furry companions !
 
 ![Pets of petowner](https://github.com/marauder36/PetSitter/assets/158584558/cc090d65-3273-4288-9207-f8216cd0c23a)
 
