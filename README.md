@@ -22,3 +22,5 @@ Also, pet owners have a dedicated section where they can save the details of all
 After the verified completition of the reserved service, the pet owners can leave reviews both for the pet sitter and their services, as well as personal notes.
 
 ![Review system](https://github.com/marauder36/PetSitter/assets/158584558/1a9506cb-f710-4358-8505-b011b1919829)
+
+The app has much more functionality and interactivity, down to the customization of each pet owner and pet sitter's profiles, as well as the pets' themselves.
