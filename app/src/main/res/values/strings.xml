@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">FirebaseRTDB</string>
+    <string name="sign_in_with_phone">Sign in with phone\n</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="continue_text">Continue\n</string>
+    <string name="phone_number">Phone number\n</string>
+    <string name="last_name">Lastname</string>
+    <string name="first_name">Firstname\n</string>
+    <string name="register_text">Register</string>
+    <string name="title_activity_driver_home">DriverHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_exit">Sing out</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="decline">Decline</string>
+    <string name="api_key">AIzaSyDSYQOpx5KWQilelGSNJdideUwj53VxAKI</string>
+    <string name="token_not_found">Token not found</string>
+    <string name="send_request_to_driver_faield">Send request to Rider failed\n</string>
+    <string name="sign_in_with_username_and_password">Sign in with Username and Password</string>
+    <string name="oauth_user_fake">1027545473785-5tu1q6r5be0fntk34n5cjqscfj83dqqk.apps.googleusercontent.com</string>
+    <string name="open_nav">Open navigation drawer</string>
+    <string name="close_nav">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard_test">DashboardTestActivity</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="about_us">About us</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_sign_in_button">Sing in</string>
+    <string name="text_sing_up_button">Sing up</string>
+    <string name="text_view_register">Register</string>
+    <string name="hint_username">Username</string>
+    <string name="text_view_go_to_profile">Pick a profile photo (Optional)</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="collection_users">users_collection</string>
+    <string name="collection_messages">messages_collection</string>
+    <string name="send_button_text">Send</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="sing_out">Sign out</string>
+    <string name="editprofiletext">Profile</string>
+    <string name="petsitting_calendar">PetSitting Calendar</string>
+    <string name="petowner_s_pets">Petowner\'s Pets</string>
+    <string name="gallery">Gallery</string>
+    <string name="lots_of_text">Destul de mult scris pentru ca nu am pus limita de caractere la descriere si nu stiu cat de nebuni sunt unii oameni de vor sa impartaseasca totul cu altii</string>
+    <string name="descriere_extra_default">Apasa aici pentru a adauga detalii sau descriere pentru aceasta activitate, sau poti sa lasi nemodificat.</string>
+    <string name="your_requests">Your requests</string>
+    <string name="reviews_you_gave">Reviews you gave</string>
+    <string name="reviews">Reviews</string>
+    <string-array name="sorting_options">
+        <item>Distanta</item>
+        <item>Pret Mediu Servicii</item>
+        <item>Rating</item>
+        <item>Disponibilitate</item>
+    </string-array>
+
+    <string-array name="unit_options">
+        <item>m</item>
+        <item>km</item>
+    </string-array>
+</resources>

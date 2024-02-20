@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/app_logo_notification"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/paw_print_notification"/>
+        <TextView
+            android:id="@+id/title_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="14sp"
+
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/app_logo_notification"/>
+        <TextView
+            android:id="@+id/description_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a message"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/app_logo_notification"
+            android:layout_below="@id/title_notification"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

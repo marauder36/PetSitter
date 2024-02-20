@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.PetSitter.activities.calendar.CalendarActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_screen">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/calendar_main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="0dp"
+        android:background="@color/lavender"
+        android:padding="0dp"
+        app:titleTextColor="@color/white"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendar_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <TextView
+        android:id="@+id/avem_sau_nu_events"
+        android:layout_width="match_parent"
+        android:text="Upcoming reservations:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/lavender"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/upcoming_events_RV"
+        android:background="@color/lavender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/add_event_in_calendar_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:src="@drawable/ic_add"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

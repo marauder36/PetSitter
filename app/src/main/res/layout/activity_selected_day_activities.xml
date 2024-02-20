@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PetSitter.activities.calendar.SelectedDayActivitiesActivity"
+    android:orientation="vertical"
+    android:background="@drawable/splash_screen">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/calendar_zi_aleasa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="0dp"
+        android:background="@color/lavender"
+        android:padding="0dp"
+        app:titleTextColor="@color/white"
+        />
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/daily_activities_text"
+            android:layout_width="match_parent"
+            android:text="In aceasta zi ai urmatoarele rezervari:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_daily_activities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

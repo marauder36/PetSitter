@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardElevation="8dp">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/cancel_press_on"
+            android:layout_margin="10dp"
+            android:src="@drawable/baseline_cancel_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Te rugam sa lasi un review:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/petsitter_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/petsittericon"
+            app:civ_border="false"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/petsitter_review_name"
+            android:text="Cat de bine si-a facut treaba PetSitter name placeholder ?"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <RatingBar
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rating_given_to_petsitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:id="@+id/display_current_rating_given_to_petsitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="0/5"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <TextView
+        android:text="Ce nota acordati serviciilor ?"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <RatingBar
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rating_given_to_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:id="@+id/display_current_rating_given_to_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="0/5"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ti_layout_detalii_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentarii si Detalii"
+        android:layout_margin="10dp"
+        app:boxBackgroundMode="outline"
+        app:hintAnimationEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti_edit_text_detalii_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Spune-ne gandurile tale despre aceasta experienta."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_review"
+            android:background="@drawable/rounded_button_dark"
+            android:text="Save review"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.cardview.widget.CardView>

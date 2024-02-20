@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PetOwner.Filter.FilterActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/filter_main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="0dp"
+        android:background="@color/lavender"
+        android:padding="0dp"
+        app:titleTextColor="@color/white"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        
+        <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/distance_100"
+            android:background="@drawable/rounded_button_filter"
+            android:text="+ La mai putin de 100m"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/distance_1km"
+            android:background="@drawable/rounded_button_filter"
+            android:text="+ La mai putin de 1 km"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/distance_select"
+            android:background="@drawable/rounded_button_filter"
+            android:text="+ Selecteaza distanta"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            />
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/disp_maine"
+                    android:background="@drawable/rounded_button_filter"
+                    android:text="+ Disponibil maine"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/disp_sapt_viitore"
+                    android:background="@drawable/rounded_button_filter"
+                    android:text="+ Disp sapt aceasta"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/disp_luna_viitoare"
+                    android:background="@drawable/rounded_button_filter"
+                    android:text="+ Alege data"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    />
+            </androidx.cardview.widget.CardView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alege criteriu de sortare: "
+        android:textSize="20sp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/lavender"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        />
+
+    <Spinner
+        android:id="@+id/sortingOptionsSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/sorting_options"
+        android:elevation="10dp"
+        android:background="@color/lavender"
+
+        />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:id="@+id/applySortingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplica sortarea"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filtered_petsitters_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
