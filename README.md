@@ -6,3 +6,5 @@
 Pet owners can quickly see which pet sitters are near them and click on their cards for details.
 
 ![Detalii petSitter](https://github.com/marauder36/PetSitter/assets/158584558/b852c5b6-0fe8-47f2-b83f-ffbfcd978efd) ![Detalii petSitter 2](https://github.com/marauder36/PetSitter/assets/158584558/e35ba756-bda8-4637-afbb-c6fda900e8fe)
+
+ When they have a found a suitable sitter, they can reserve the desired service and if both parties are in agreement, it's a match !
