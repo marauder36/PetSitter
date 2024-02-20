@@ -8,3 +8,5 @@ Pet owners can quickly see which pet sitters are near them and click on their ca
 ![Detalii petSitter](https://github.com/marauder36/PetSitter/assets/158584558/b852c5b6-0fe8-47f2-b83f-ffbfcd978efd) ![Detalii petSitter 2](https://github.com/marauder36/PetSitter/assets/158584558/e35ba756-bda8-4637-afbb-c6fda900e8fe)
 
  When they have a found a suitable sitter, they can reserve the desired service and if both parties are in agreement, it's a match !
+
+![Rezervare serviciu](https://github.com/marauder36/PetSitter/assets/158584558/d6cd79fa-d58e-4e6f-84fd-701f569ff8dd) ![Requests window](https://github.com/marauder36/PetSitter/assets/158584558/ab9006bb-32ae-4743-a6b4-84c9497e384c)
