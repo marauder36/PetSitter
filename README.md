@@ -10,3 +10,7 @@ Pet owners can quickly see which pet sitters are near them and click on their ca
  When they have a found a suitable sitter, they can reserve the desired service and if both parties are in agreement, it's a match !
 
 ![Rezervare serviciu](https://github.com/marauder36/PetSitter/assets/158584558/d6cd79fa-d58e-4e6f-84fd-701f569ff8dd) ![Requests window](https://github.com/marauder36/PetSitter/assets/158584558/ab9006bb-32ae-4743-a6b4-84c9497e384c)
+
+After the verified completition of the reserved service, the pet owners can leave reviews both for the pet sitter and their services, as well as personal notes.
+
+![Review system](https://github.com/marauder36/PetSitter/assets/158584558/1a9506cb-f710-4358-8505-b011b1919829)
